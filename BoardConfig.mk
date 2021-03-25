@@ -24,7 +24,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986_usu
 
 # Kernel
-TARGET_KERNEL_CONFIG := vs986_usu_defconfig
+TARGET_KERNEL_CONFIG := aoscp_vs986_usu_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/H815/BoardConfigVendor.mk
+-include vendor/lge/vs986_usu/BoardConfigVendor.mk
