@@ -51,4 +51,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0 \
     ro.telephony.default_network=10\
     telephony.lteOnCdmaDevice=1 \
-    telephony.lteOnGsmDevice=0
