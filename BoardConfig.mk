@@ -27,4 +27,4 @@ TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986_usu
 TARGET_KERNEL_CONFIG := vs986_usu_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/vs986_usu/BoardConfigVendor.mk
+-include vendor/lge/H815/BoardConfigVendor.mk
