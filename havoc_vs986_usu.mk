@@ -32,7 +32,7 @@ $(call inherit-product, device/lge/vs986_usu/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := havoc_vs986_usu
-PRODUCT_DEVICE := vs986
+PRODUCT_DEVICE := vs986_usu
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LGVS986
 PRODUCT_MANUFACTURER := LGE
