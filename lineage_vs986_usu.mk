@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit ROM vendor common stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit ROM vendor telephony stuff
 $(call inherit-product, vendor/havoc/config/telephony.mk)
@@ -31,7 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/lge/vs986_usu/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := havoc_vs986_usu
+PRODUCT_NAME := lineage_vs986_usu
 PRODUCT_DEVICE := vs986_usu
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LGVS986
