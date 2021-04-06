@@ -16,7 +16,7 @@
 # the License for the specific language governing 
 # permissions and limitations under the License.
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vs986_usu.mk
+    $(LOCAL_DIR)/havoc_vs986_usu.mk
 
 # Screen density
 # must be defined here as they get readonly later on
