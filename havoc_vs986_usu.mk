@@ -31,7 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/lge/vs986_usu/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_vs986_usu
+PRODUCT_NAME := havoc_vs986_usu
 PRODUCT_DEVICE := vs986_usu
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LGVS986
@@ -51,3 +51,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0 \
     ro.telephony.default_network=10\
     telephony.lteOnCdmaDevice=1 \
+    telephony.lteOnGsmDevice=0
