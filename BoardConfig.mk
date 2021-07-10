@@ -18,8 +18,8 @@
 -include device/lge/g4-common/BoardConfigCommon.mk
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4492099584
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137239
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4341104640
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 
 TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986
 
@@ -27,4 +27,4 @@ TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986
 TARGET_KERNEL_CONFIG := usu_vs986_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/vs986_usu/BoardConfigVendor.mk
+-include vendor/lge/vs986/BoardConfigVendor.mk
