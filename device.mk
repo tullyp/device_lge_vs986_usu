@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/vs986_usu/vs986_usu-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/vs986/vs986-vendor.mk)
 
 # Init configuration
 PRODUCT_PACKAGES += \
