@@ -17,12 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/vs986/vs986-vendor.mk)
-
-# Init configuration
-PRODUCT_PACKAGES += \
-    fstab.g4 \
-    init.device.rc \
+$(call inherit-product-if-exists, vendor/lge/vs986/vs986-vendor.mk
     
 
 # common g4
