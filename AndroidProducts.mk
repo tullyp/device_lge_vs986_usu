@@ -22,3 +22,8 @@ PRODUCT_MAKEFILES := \
 # must be defined here as they get readonly later on
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
+
+COMMON_LUNCH_CHOICES := \
+    havoc_h811-userdebug \
+	havoc_h811-user \
+	havoc_h811-eng 
