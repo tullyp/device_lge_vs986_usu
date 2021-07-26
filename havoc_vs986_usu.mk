@@ -28,7 +28,7 @@ $(call inherit-product, vendor/havoc/config/telephony.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit from vs986_usu device
-$(call inherit-product, device/lge/g4/vs986_usu/device.mk)
+$(call inherit-product, device/lge/vs986_usu/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := havoc_vs986_usu
